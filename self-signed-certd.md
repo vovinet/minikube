@@ -1,4 +1,4 @@
-enter MK container in shell, create a file (for ex /root/docker.sh) with following entries :
+## 1. enter MK container in shell, create a file (for ex /root/docker.sh) with following entries :
 
 ```
 update-ca-certificates --fresh
@@ -7,7 +7,7 @@ cp ~/ghcr.io.crt /usr/local/share/ca-certificates/
 update-ca-certificates
 ```
 
-1. Execute it once, or add the execution safely along with docker start (/etc/init.d/docker)
+## 2. Execute it once, or add the execution safely along with docker start (/etc/init.d/docker)
 
 ```
 ...
